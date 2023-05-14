@@ -120,10 +120,11 @@ def draw_landmarks(
       cv2.circle(image, landmark_px, drawing_spec.circle_radius,
                  drawing_spec.color, drawing_spec.thickness)
       
-def draw_bounding_boxes(image, detection) :
+def draw_bounding_boxes(image, detection, color_seed=2023) :
     bbox = detection.bounding_box
     # print(bbox)
     label = sorted([(c.category_name, round(c.score, 2)) for c in detection.categories])[0]
+    np.random.seed(color_seed)
     color = np.array(tuple(np.random.random(size=3) * 256))
     cv2.rectangle(image, 
                   np.array([bbox.origin_x, bbox.origin_y]), 
