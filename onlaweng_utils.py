@@ -140,3 +140,22 @@ def draw_bounding_boxes(image, detection, color_seed=2023) :
                 color=color, 
                 thickness=1, 
                 lineType=cv2.LINE_AA)
+    
+def draw_detection_box(image, bbox, label, accuracy, color_seed=2023) :
+    # print(bbox)
+    np.random.seed(color_seed)
+    color = np.array(tuple(np.random.random(size=3) * 256))
+    cv2.rectangle(image, 
+                  np.array([bbox.origin_x, bbox.origin_y]), 
+                  np.array([bbox.origin_x + bbox.width, bbox.origin_y + bbox.height]),
+                  color=color,
+                  thickness=2)
+    
+    cv2.putText(image, 
+                str(f"{label} {accuracy}"), 
+                org=np.array([bbox.origin_x, bbox.origin_y - 5]), 
+                fontFace=cv2.FONT_HERSHEY_SIMPLEX,      
+                fontScale=0.75, 
+                color=color, 
+                thickness=1, 
+                lineType=cv2.LINE_AA)
