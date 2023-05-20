@@ -14,7 +14,6 @@ All other previous attempt of stereovision approach/others is located in folder 
 Presentation Slide: <br/>
 Full Slide: https://github.com/bbompk/onlaweng/blob/main/presentation.pdf<br/>
 1 Page Slide: https://github.com/bbompk/onlaweng/blob/main/presentation%201page.pdf<br/>
-<br/>
 Video: <br/>
 3-5 mins Video: vdo link here<br/>
 
