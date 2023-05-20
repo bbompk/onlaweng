@@ -6,7 +6,7 @@ Group Wall-E 2<br/>
 6330563421 Akira Sitdhikariyawat <br/>
 
 ## Instructions
-The main file is twocamv2.ipynb. Run the file to run the application.<br/>
+The main file is Object Detection from Fingertip.ipynb. Run the file to run the application.<br/>
 All other previous attempt of stereovision approach/others is located in folder prototype.<br/>
 
 ## Materials
@@ -15,7 +15,7 @@ Presentation Slide: <br/>
 Full Slide: https://github.com/bbompk/onlaweng/blob/main/presentation.pdf<br/>
 1 Page Slide: https://github.com/bbompk/onlaweng/blob/main/presentation%201page.pdf<br/>
 Video: <br/>
-3-5 mins Video: vdo link here<br/>
+Video Presentation & Demo: https://youtu.be/fyVjunwzBFo<br/>
 
 ### Mediapipe 
 Hand Detection: <br/>
