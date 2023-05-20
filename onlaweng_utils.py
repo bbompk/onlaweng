@@ -1,6 +1,3 @@
-# my own util module
-# ใช่ กุก้อปมาจาก sourcecode แม่ง
-
 from typing import List, Mapping, Optional, Tuple, Union
 import cv2
 import dataclasses
